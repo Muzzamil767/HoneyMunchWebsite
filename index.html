@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Delight | Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg" style="background-color: #b76e79;">
+    <a class="navbar-brand" href="index.html" style="color: white;">Honey Munch</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item "><a class="nav-link" style="color: white;" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="contact.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="login.html">Login</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="cart.html">Cart <span class="badge badge-light">0</span></a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Section with Welcome Text and Overlay Image -->
+<div class="welcome-section">
+    <h1 class="welcome-text">Welcome to Honey Munch</h1>
+    <div class="text-overlay-container">
+        <img src="./images/first.jpg" alt="Baked With Love" class="center-image">
+        <div class="overlay-text">
+            <h1 class="overlay-heading">BAKED WITH LOVE</h1>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Welcome Section Styling */
+    .welcome-section {
+        text-align: center;
+        background-color: #fce4ec; /* Light Pink Background */
+        padding: 50px 20px;
+    }
+
+    .welcome-text {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #b76e79; /* Soft Purple/Pink */
+        margin-bottom: 20px;
+    }
+
+    /* Image with Text Overlay */
+    .text-overlay-container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .center-image {
+        display: block;
+        width: 100%;
+        max-height: 400px;
+        margin: 0 auto;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(183, 110, 121, 0.8); /* Semi-transparent pink */
+        padding: 15px 30px;
+        border-radius: 8px;
+    }
+
+    .overlay-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 0;
+    }
+</style>
+
+<!-- Home Page Content -->
+<div class="container mt-5">
+    <h1>Main Cakes</h1>
+    <div class="row">
+        <!-- Product Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/10.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Heaven</h5>
+                    <p class="card-text">Moist chocolate cake with rich frosting.</p>
+                    <p><strong>Price: 2000</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/11.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Vanilla Dream</h5>
+                    <p class="card-text">Light and fluffy vanilla cake with creamy buttercream.</p>
+                    <p><strong>Price: 2200</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/12.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Red Velvet Delight</h5>
+                    <p class="card-text">Classic red velvet cake with cream cheese frosting.</p>
+                    <p><strong>Price: 2100</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/pic4 (2).jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Lemon Lavender</h5>
+                    <p class="card-text">Refreshing lemon cake infused with lavender flavor.</p>
+                    <p><strong>Price: 1700</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/pic4 (3).jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Carrot Cake Delight</h5>
+                    <p class="card-text">Spiced carrot cake with cream cheese frosting and walnuts.</p>
+                    <p><strong>Price: 1699</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/1.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Tiramisu</h5>
+                    <p class="card-text">Coffee-soaked ladyfingers layered with mascarpone cheese.</p>
+                    <p><strong>Price: 2150</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/2.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">S'mores Please</h5>
+                    <p class="card-text">Chocolate cake filled with toasted marshmallow filling.</p>
+                    <p><strong>Price: 2100</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Repeat above card for other products -->
+    </div>
+</div>
+
+
+<!-- new list of cake-->
+
+<div class="container mt-5">
+    <h1>Wedding Cart</h1>
+    <div class="row">
+        <!-- Product Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/3.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Raspberry Swirl</h5>
+                    <p class="card-text">Moist vanilla cake with raspberry filling and buttercream.</p>
+                    <p><strong>Price: 2400</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/4.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Espresso Chocolate</h5>
+                    <p class="card-text">Intense espresso-flavored cake with dark chocolate frosting.</p>
+                    <p><strong>Price: 1500</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/5.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Pumpkin cake </h5>
+                    <p class="card-text">Warmly spiced pumpkin cake with cream cheese frosting.</p>
+                    <p><strong>Price: 2000</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/6.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Orange cake</h5>
+                    <p class="card-text">Delicate orange cake infused with orange blossom water.</p>
+                    <p><strong>Price: 1900</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/7.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Amaretto Almond</h5>
+                    <p class="card-text">Moist almond cake with amaretto liqueur and almond buttercream.</p>
+                    <p><strong>Price: 2000</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/8.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Peach cake</h5>
+                    <p class="card-text">Warm peach cake topped with crispy cinnamon oat topping.</p>
+                    <p><strong>Price: 2200</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="./images/9.jpg" class="card-img-top" alt="Cake">
+                <div class="card-body">
+                    <h5 class="card-title">Hazelnut cake</h5>
+                    <p class="card-text">Rich hazelnut cake with caramelized hazelnut praline topping.</p>
+                    <p><strong>Price: 1600</strong></p>
+                    <button class="btn btn-danger add-to-cart" style="background-color: #b76e79;">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Repeat above card for other products -->
+    </div>
+</div>
+
+<div class="customize-section position-relative text-center">
+    <img src="./images/last.jpg" alt="Customize Cake" class="img-fluid">
+    <div class="overlay-text">
+        <h1 class="text-white">Customize Your Cake</h1>
+        <p class="text-white">Choose flavor, size, and make it sugar-free!</p>
+      
+    </div>
+</div>
+
+<!-- Customize Your Cake Section -->
+<div class="container mt-5">
+    <h1>Customize Your Cake</h1>
+    <form id="customizeForm">
+        <div class="form-group">
+            <label for="flavor">Flavor:</label>
+            <select id="flavor" class="form-control">
+                <option>Chocolate</option>
+                <option>Vanilla</option>
+                <option>Red Velvet</option>
+                <option>Strawberry</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="size">Size:</label>
+            <select id="size" class="form-control">
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="sugar">Sugar Option:</label>
+            <select id="sugar" class="form-control">
+                <option>Regular</option>
+                <option>Sugar-Free</option>
+            </select>
+        </div>
+       
+        <button type="submit" class="btn btn-danger" style="background-color: #b76e79;">Submit Custom Order</button>
+    </form>
+</div>
+
+<!-- Customize Your Cake Section -->
+
+
+<style>
+    .customize-section {
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .customize-section img {
+        width: 100%;
+        height: 300px;
+        opacity: 0.8;
+    }
+
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .overlay-text h1, .overlay-text p {
+        margin: 0;
+    }
+</style>
+
+
+
+<footer class=" text-white text-center py-3 mt-5" style="background-color: #b76e79; color: white;">
+    &copy; 2024 Cake Delight. All rights reserved.
+</footer>
+<script>
+    document.getElementById('customizeForm').addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Your custom cake order has been placed!');
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelectorAll('.add-to-cart').forEach(button => {
+        button.addEventListener('click', () => {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const product = {
+                name: button.parentElement.querySelector('.card-title').innerText,
+                price: parseInt(button.parentElement.querySelector('strong').innerText.replace('Price: ', '')),
+                quantity: 1,
+            };
+            const existingProduct = cart.find(item => item.name === product.name);
+            if (existingProduct) {
+                existingProduct.quantity++;
+            } else {
+                cart.push(product);
+            }
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert('Product added to cart!');
+            updateCartBadge();
+        });
+    });
+
+    function updateCartBadge() {
+        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+        document.querySelector('.badge').textContent = cart.length;
+    }
+
+    updateCartBadge();
+</script>
+</body>
+</html>

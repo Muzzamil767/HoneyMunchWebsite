@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Cake Delight</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .about-header {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        .about-header h1 {
+            font-size: 3rem;
+        }
+        .about-section {
+            padding: 50px 0;
+        }
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        .about-highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .team-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+        .team-card h5 {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg" style="background-color: #b76e79;">
+    <a class="navbar-brand" href="index.html" style="color: white;">Honey Munch</a>    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item "><a class="nav-link" style="color: white;" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="contact.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="login.html">Login</a></li>
+            <li class="nav-item"><a class="nav-link" style="color: white;" href="cart.html">Cart <span class="badge badge-light">0</span></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<!-- <div class="about-header">
+    <h1>About Us</h1>
+    <p>Discover the story behind Cake Delight and our passion for baking.</p>
+</div> -->
+
+<!-- About Content -->
+<div class="container about-section">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./images/about.jpg" alt="Bakery Image" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+            <h3>Welcome to <span class="about-highlight" style="color: #b76e79;">Honey Munch</span></h3>
+            <p class="about-text">
+                At <span class="about-highlight" style="color: #b76e79;">Honey Munch</span>, we believe in spreading happiness through the art of baking. Established in 2024, we have grown into a trusted name in the baking industry, offering high-quality cakes and pastries for every occasion.
+            </p>
+            <p class="about-text">
+                Our cakes are made with the finest ingredients, baked fresh daily, and crafted with love. From simple desserts to elegant wedding cakes, we strive to make your moments special and memorable.
+            </p>
+            <p class="about-text">
+                Join us on our journey to bring joy and sweetness to your life, one slice at a time.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Our Team Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Meet Our Team</h2>
+    <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-md-4">
+            <div class="card team-card text-center">
+                <img src="https://via.placeholder.com/250" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member">
+                <div class="card-body">
+                    <h5>Jane Doe</h5>
+                    <p>Head Baker</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 2 -->
+        <div class="col-md-4">
+            <div class="card team-card text-center">
+                <img src="https://via.placeholder.com/250" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member">
+                <div class="card-body">
+                    <h5>John Smith</h5>
+                    <p>Pastry Chef</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member 3 -->
+        <div class="col-md-4">
+            <div class="card team-card text-center">
+                <img src="https://via.placeholder.com/250" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member">
+                <div class="card-body">
+                    <h5>Emily Brown</h5>
+                    <p>Decorator</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class=" text-white text-center py-3 mt-5" style="background-color: #b76e79; color: white;">
+    &copy; 2024 Cake Delight. All rights reserved.
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
